@@ -3,15 +3,21 @@
     "test": "jest",
     "prepublish": "tsc"
   },
-  "name": "memoza",
+  "name": "@abeluzhenko/memoza",
   "version": "1.0.0",
   "description": "Typescript method memoization decorator",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:abeluzhenko/memoza.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abeluzhenko/memoza.git"
+  },
   "author": "abeluzhenko",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "jest": "^26.6.3",
